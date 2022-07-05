@@ -1,0 +1,4 @@
+1. Create a directory “<yourname>-gitrepo” (e.g. “puneet-gitrepo” for me) at your local machine.
+2. Create 3 files (with “.c”, ".sh" and ".java" extensions. 
+3. Commit to master branch and your username and email id should be reflected while committing the files.
+4. Create a new repository at gibhub an push the files.

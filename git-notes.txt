@@ -1,0 +1,30 @@
+Initialize git repo (one time activity)    - git init 
+
+Newfile                      -    Working dir/area      (untracked by Git)
+Add file to git repo         -    staging area          (identified/marked by git repo for changes to be commited)           
+Commit to git repo	     -    pushing to local git repo (no changes are pending/ clean working area)
+
+   Local changes (No internet connection is required for above changes)
+----------------------------------------------------------------------------------------
+
+Pushing to remote repo - github, gitlab, bitbucket  (can be shared with other users).   [need internet connection to push changes to remote repo].
+
+
+====================================
+
+1. create new file    		(vi firstfile)
+2. Initial git repo   		(git init)
+3. git status         		(untacked file)
+4. git add <filename> 		(added to staging area)
+5. git commit -m <message> 	(clean working tree)
+
+
+
+6. git log - to display the history of changes/commits
+7. git show - the details/diff of last 2 changes
+8. git branch - to display current branch name (default branch - master)
+
+
+git config --global user.name "Puneet"
+git config --global user.email "puneetbhatia77@gmail.com"
+git config --global --list

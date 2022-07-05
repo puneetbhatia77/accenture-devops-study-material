@@ -1,0 +1,45 @@
+Install Jenkins
+Install suggested plugins
+Manage Jenkins
+	- Configure Systems 
+	- Configure Global Security
+	- Global Tool Configuration   - maven install automatically
+
+1. helloworld job
+-------------------------------
+
+2. javademo job
+#to build java, install JDK (if not installed already)
+
+   apt-get install -y openjdk-8-jdk
+   export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+   
+   - Global Tool Configuration   - configure JDK
+
+
+git URL : https://github.com/puneetbhatia77/helloworldjavatest.git
+Build 
+   execute shell : 
+           javac helloworldjavatest.java
+           java  helloworldjavatest
+
+# test polling
+
+root@u64-18-04-jenkins:/var/lib/jenkins/workspace/javademo# cd /tmp/
+root@u64-18-04-jenkins:/tmp# git clone https://github.com/puneetbhatia77/helloworldjavatest.git
+
+# configure javademo jenkins job -> poll scm -> * * * * *
+# make changes to helloworldjavatest.java and push to github
+
+root@u64-18-04-jenkins:/var/lib/jenkins/workspace/javademo# ls
+helloworldjavatest.class  helloworldjavatest.java
+
+# you can directly make change in github repo and push it.
+
+2. Jenkins pipeline : refer Jenkins-pipeline-project-4.pptx
+
+
+   
+
+
+
